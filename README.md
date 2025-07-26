@@ -21,6 +21,20 @@ With the Gemini CLI you can:
 
 You have two options to install Gemini CLI.
 
+### Quickstart script
+
+Run the included `quickstart.sh` script to automatically install the
+dependencies and launch Gemini CLI. This works on macOS and most
+Debian/Ubuntu-based Linux distributions.
+
+```bash
+./quickstart.sh
+```
+
+The script installs Node.js 20 if necessary, installs the Gemini CLI
+globally and then starts the CLI so you can begin working immediately.
+
+
 ### With Node
 
 1. **Prerequisites:** Ensure you have [Node.js version 20](https://nodejs.org/en/download) or higher installed.
